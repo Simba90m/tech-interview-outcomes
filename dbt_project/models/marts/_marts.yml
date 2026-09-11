@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: dim_role
+    description: One row per normalized role, with its broader role family and interview volume.
+    columns:
+      - name: role_norm
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_interviews
+    description: >
+      One row per interview: role, role family, decision, reason category, and
+      resume/transcript depth signals. The primary fact table behind the
+      Tech Interview Outcomes dashboard.
+    columns:
+      - name: interview_id
+        tests:
+          - unique
+          - not_null
+      - name: role_norm
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_role')
+                field: role_norm
+      - name: decision
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['select', 'reject']

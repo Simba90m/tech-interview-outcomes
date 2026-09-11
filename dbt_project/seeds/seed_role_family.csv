@@ -1,0 +1,39 @@
+role_norm,role_display,role_family
+software engineer,Software Engineer,Software Engineering
+software developer,Software Developer,Software Engineering
+full stack developer,Full Stack Developer,Software Engineering
+mobile app developer,Mobile App Developer,Software Engineering
+game developer,Game Developer,Software Engineering
+ar/vr developer,AR/VR Developer,Software Engineering
+blockchain developer,Blockchain Developer,Software Engineering
+qa engineer,QA Engineer,Software Engineering
+data scientist,Data Scientist,Data & AI
+data engineer,Data Engineer,Data & AI
+data analyst,Data Analyst,Data & AI
+data architect,Data Architect,Data & AI
+machine learning engineer,Machine Learning Engineer,Data & AI
+ai engineer,AI Engineer,Data & AI
+ai researcher,AI Researcher,Data & AI
+devops engineer,DevOps Engineer,Infrastructure & Cloud
+cloud engineer,Cloud Engineer,Infrastructure & Cloud
+cloud architect,Cloud Architect,Infrastructure & Cloud
+database administrator,Database Administrator,Infrastructure & Cloud
+system administrator,System Administrator,Infrastructure & Cloud
+network engineer,Network Engineer,Infrastructure & Cloud
+cybersecurity analyst,Cybersecurity Analyst,Security
+cybersecurity specialist,Cybersecurity Specialist,Security
+ui engineer,UI Engineer,Design
+ui designer,UI Designer,Design
+ux designer,UX Designer,Design
+ui/ux designer,UI/UX Designer,Design
+graphic designer,Graphic Designer,Design
+product manager,Product Manager,Product & Business
+project manager,Project Manager,Product & Business
+business analyst,Business Analyst,Product & Business
+it support specialist,IT Support Specialist,Product & Business
+robotics engineer,Robotics Engineer,Hardware & Robotics
+hr specialist,HR Specialist,Non-Technical
+human resources specialist,Human Resources Specialist,Non-Technical
+content writer,Content Writer,Non-Technical
+digital marketing specialist,Digital Marketing Specialist,Non-Technical
+e-commerce specialist,E-commerce Specialist,Non-Technical

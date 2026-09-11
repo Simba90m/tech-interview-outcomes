@@ -1,0 +1,39 @@
+role_norm,role_family,role_display,total_interviews,total_selected,selection_rate_pct
+digital marketing specialist,Non-Technical,Digital Marketing Specialist,260,138,53.1
+qa engineer,Software Engineering,QA Engineer,251,112,44.6
+full stack developer,Software Engineering,Full Stack Developer,246,128,52.0
+game developer,Software Engineering,Game Developer,239,119,49.8
+content writer,Non-Technical,Content Writer,238,117,49.2
+ui engineer,Design,UI Engineer,507,254,50.1
+it support specialist,Product & Business,IT Support Specialist,224,128,57.1
+mobile app developer,Software Engineering,Mobile App Developer,247,124,50.2
+ux designer,Design,UX Designer,227,126,55.5
+cybersecurity analyst,Security,Cybersecurity Analyst,234,118,50.4
+cloud engineer,Infrastructure & Cloud,Cloud Engineer,240,102,42.5
+system administrator,Infrastructure & Cloud,System Administrator,223,117,52.5
+business analyst,Product & Business,Business Analyst,226,119,52.7
+project manager,Product & Business,Project Manager,56,32,57.1
+software developer,Software Engineering,Software Developer,66,27,40.9
+hr specialist,Non-Technical,HR Specialist,12,6,50.0
+network engineer,Infrastructure & Cloud,Network Engineer,16,7,43.8
+graphic designer,Design,Graphic Designer,15,7,46.7
+ui/ux designer,Design,UI/UX Designer,7,4,57.1
+ai engineer,Data & AI,AI Engineer,13,8,61.5
+product manager,Product & Business,Product Manager,761,371,48.8
+machine learning engineer,Data & AI,Machine Learning Engineer,265,117,44.2
+ar/vr developer,Software Engineering,AR/VR Developer,237,116,48.9
+database administrator,Infrastructure & Cloud,Database Administrator,243,110,45.3
+data scientist,Data & AI,Data Scientist,825,411,49.8
+blockchain developer,Software Engineering,Blockchain Developer,251,133,53.0
+cloud architect,Infrastructure & Cloud,Cloud Architect,254,130,51.2
+data architect,Data & AI,Data Architect,225,105,46.7
+robotics engineer,Hardware & Robotics,Robotics Engineer,257,135,52.5
+e-commerce specialist,Non-Technical,E-commerce Specialist,268,138,51.5
+data engineer,Data & AI,Data Engineer,754,353,46.8
+human resources specialist,Non-Technical,Human Resources Specialist,262,132,50.4
+ai researcher,Data & AI,AI Researcher,225,116,51.6
+data analyst,Data & AI,Data Analyst,512,261,51.0
+software engineer,Software Engineering,Software Engineer,787,390,49.6
+devops engineer,Infrastructure & Cloud,DevOps Engineer,266,137,51.5
+ui designer,Design,UI Designer,226,109,48.2
+cybersecurity specialist,Security,Cybersecurity Specialist,9,3,33.3

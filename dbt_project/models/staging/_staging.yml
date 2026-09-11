@@ -1,0 +1,40 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: raw_interviews
+
+models:
+  - name: stg_interviews
+    description: >
+      One row per interview. Cleans role casing, derives resume/transcript word
+      counts, classifies decision reasons into themes, and flags rows where the
+      reason field appears to contain leaked job-requirement text instead of a
+      real decision reason (a real data quality issue found in the source data).
+    columns:
+      - name: interview_id
+        tests:
+          - unique
+          - not_null
+      - name: decision
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['select', 'reject']
+      - name: role_norm
+        tests:
+          - not_null
+      - name: reason_category
+        tests:
+          - not_null
+
+  - name: stg_role_family
+    description: Lookup mapping each normalized role to a broader role family.
+    columns:
+      - name: role_norm
+        tests:
+          - unique
+          - not_null

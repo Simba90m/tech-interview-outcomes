@@ -2,8 +2,8 @@
 
 An analysis of 10,174 real tech-industry interview records: what predicts a "select" versus a "reject" decision, across 38 roles and 8 role families. Built with dbt (DuckDB), explored in a Streamlit companion app, and visualized in Tableau Public.
 
-- **Tableau Public dashboard**: link here once published (see `TABLEAU_BUILD_SPEC.md`)
-- **Streamlit companion app**: link here once deployed to Streamlit Community Cloud
+- **Tableau Public dashboard**: [Tech Interview Outcomes](https://public.tableau.com/app/profile/mahmoud.abdelaziz2733/viz/TechInterviewOutcomes/Dashboard1)
+- **Streamlit companion app**: [Tech Interview Outcomes Explorer](https://dashboardapppy-m3ffmk9mszcv7razlmbjbo.streamlit.app/)
 - Third project in a portfolio series alongside [Workforce & HR Analytics](#) and [Logistics & Supply Chain Analytics](#)
 
 ## Why this project exists, and why the scope changed mid-build
